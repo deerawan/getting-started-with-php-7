@@ -1,0 +1,12 @@
+{
+    "name": "deerawan/before",
+    "authors": [
+        {
+            "name": "Budi Irawan",
+            "email": "deerawan@gmail.com"
+        }
+    ],
+    "require": {
+        "galvani/php-redis": "^1.3"
+    }
+}

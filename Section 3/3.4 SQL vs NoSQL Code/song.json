@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Roar",
+    "duration": "180",
+    "genre": "pop",
+    "artist": "Katy Perry",
+    "age": 31,
+    "debutYear": 1999,
+    "album": "Prism",
+    "reviews": [
+      {
+        "comment": "good song"
+      },
+      {
+        "comment": "I like roar song"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "U got it bad",
+    "duration": "160",
+    "genre": "R&B",
+    "artist": "Usher",
+    "age": 37,
+    "debutYear": 1999,
+    "married": "Y",
+    "facebook": "https://www.facebook.com/usher",
+    "album": "8701",
+    "reviews": [
+      {
+        "comment": "perfect song"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+	"name": "galvani/php-redis",
+	"require": {
+		"php": ">=5.3"
+	},
+	"version": "1.3.1",
+	"description": "php-redis contains php5 class for connecting with redis database with methods for all available commands in redis",
+	"authors": [],
+	"autoload" : {
+		"psr-0": { "Galvani/Redis": "/" }
+	}
+}
+
+
