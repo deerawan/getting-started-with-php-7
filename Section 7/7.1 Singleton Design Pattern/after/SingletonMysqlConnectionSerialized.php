@@ -1,0 +1,39 @@
+<?php
+
+class MysqlConnection
+{
+    private static $instance;
+
+    public static function new($params)
+    {
+        if (!isset(self::$instance)) {
+            self::$instance = new PDO(
+                'mysql:host=' . $params['host'] . ';dbname=' . $params['dbName'],
+                $params['username'], $params['password']
+            );
+        }
+
+        return self::$instance;
+    }
+
+    private function __construct() {}
+    private function __clone() {}
+
+    private function __sleep() {}
+    private function __wakeup() {}
+}
+
+$params = [
+    'host' => '127.0.0.1',
+    'dbName' => 'musica',
+    'username' => 'root',
+    'password' => ''
+];
+$conn = MysqlConnection::new($params);
+var_dump($conn);
+$conn = MysqlConnection::new($params);
+var_dump($conn);
+
+$conn2 = clone $conn;
+var_dump($conn2);
+
