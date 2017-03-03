@@ -16,7 +16,10 @@ class MysqlConnection
         return self::$instance;
     }
 
-    private function __clone() {}
+    private function __construct() {}
+    public function __clone() {
+        echo 'called';
+    }
 }
 
 $params = [

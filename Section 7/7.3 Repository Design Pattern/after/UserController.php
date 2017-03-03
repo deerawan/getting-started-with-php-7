@@ -31,5 +31,5 @@ class UserController
     }
 }
 
-// $controller = new UserController(new DbUserRepository());
-$controller = new UserController(new MemoryUserRepository());
+$controller = new UserController(new DbUserRepository());
+// $controller = new UserController(new MemoryUserRepository());
