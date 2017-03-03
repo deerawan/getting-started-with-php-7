@@ -12,4 +12,4 @@ class Payment {
 }
 
 $todayPayment = new Payment();
-$todayPayment->setTodayDate('2016-05-01');
+$todayPayment->setPaymentDate('2016-05-01');
