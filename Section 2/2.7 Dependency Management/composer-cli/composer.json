@@ -1,0 +1,20 @@
+{
+    "name": "deerawan/composer-cli",
+    "description": "my composer package",
+    "type": "project",
+    "require": {
+        "nesbot/carbon": "^1.21",
+        "nette/mail": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "phpunit/php-code-coverage": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Budi Irawan",
+            "email": "deerawan@gmail.com"
+        }
+    ]
+}
